@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quadrinhos</title>
+</head>
+<body>
+    <header>
+        <div><img src="https://seeklogo.com/images/S/spider-man-logo-020155787C-seeklogo.com.png" height="100" width="100"></div>
+        
+        </header>
+        
+        <nav>
+        <a href="index.html">inicio</a>
+        <a href="pag2.html">curiosidades</a>
+        <a href="pag3.html">quiz</a>
+        </nav>
+ 
+        
+<section>
+        
+<p>
+ Para testa seu conhecimento sobre o personagem preparamos um quiz, para cada pergunta que você acertar<br>
+ Ganha 10 pontos, se errar perde 5 pontos  
+ 
+ Você começa com 20 pontos e precisa de 50 para conseguir
+</p>       
+            
+<button onclick = "quiz()">Clique aqui</button>
+
+
+
+
+<script>
+var pont=20
+
+
+function quiz ()
+
+                             {
+
+
+
+//pegunta 1
+perg=parseInt(prompt("qual é o lema principal do persnogem  \n   1) com grandes poderes vem grandes resposabilidade. \n  2) eu sempre me levanto  ") )
+            
+                
+if (perg == 1) 
+
+           {
+pont= pont+10
+            }
+
+else
+
+{
+pont= pont-5
+}
+
+
+
+
+
+//pergunta 2
+var perg2=parseInt(prompt("Quem foi o primeiro vilão que o Homem-Aranha enfrentou nos quadrinhos?  \n   1)Duende Verde \n  2)Doutor Octopus  ") )
+            
+                      
+if (perg2 == 2) 
+
+           {
+pont= pont+10
+            }
+
+else
+
+{
+pont= pont-5
+}
+
+//pergunta 3
+var perg3=parseInt(prompt("Em qual cidade o Homem-Aranha vive e protege como super-herói?  \n   1)Nova York \n  2)Los Angeles  ") )
+            
+                      
+if (perg3 == 1) 
+
+           {
+pont= pont+10
+            }
+
+else
+
+{
+pont= pont-5
+}
+
+//pergunta 4
+var perg4=parseInt(prompt("Qual a primeira namorada do personagem? \n   1)Gwen Stacy \n  2)Mary Jane  ") )
+            
+                      
+if (perg4 == 1) 
+
+           {
+pont= pont+10
+            }
+
+else
+
+{
+pont= pont-5
+}
+
+//pergunta 5
+ var perg5=parseInt(prompt("Com quantos anos peter foi picado pela aranha? \n   1)18 anos  \n  2)15 anos  ") )
+            
+                      
+if (perg5 == 2) 
+
+           {
+pont= pont+10
+            }
+
+else
+
+{
+pont= pont-5
+}
+
+
+alert ("sua pontuação é "+ pont)
+                              }
+
+
+
+
+
+                              
+
+//https://www.freecodecamp.org/portuguese/news/tutorial-sobre-button-onclick-em-html-e-evento-de-clique-em-javascript/
+
+
+</script>
+
+</section>
+
+
+
+
+
+<footer>
+
+</footer>
+
+
+    
+</body>
+</html>
